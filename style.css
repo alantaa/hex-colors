@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Poppins:wght@100;200;300;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hex-colors h1 {
+  animation: changecolor 5s infinite alternate;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.hex-colors h2 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.hex-colors {
+  text-align: center;
+  line-height: 8;
+}
+
+@keyframes changecolor {
+  0% {
+    color: indigo;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: green;
+  }
+  60% {
+    color: yellow;
+  }
+  80% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
