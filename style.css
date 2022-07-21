@@ -16,16 +16,17 @@ body {
   animation: changecolor 5s infinite alternate;
   font-weight: 300;
   font-size: 3rem;
+  padding-bottom: 30px;
 }
 
 .hex-colors h2 {
   font-weight: 200;
   font-size: 2rem;
+  padding-bottom: 20px;
 }
 
 .hex-colors {
   text-align: center;
-  line-height: 8;
 }
 
 @keyframes changecolor {
@@ -46,5 +47,15 @@ body {
   }
   100% {
     color: red;
+  }
+}
+
+@media (max-width: 480px) {
+  .hex-colors h1 {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+  }
+  .hex-colors h2 {
+    font-size: 1rem;
   }
 }
